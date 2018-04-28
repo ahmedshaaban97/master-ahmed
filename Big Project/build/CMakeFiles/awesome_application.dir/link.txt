@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/awesome_application.dir/apps/awesome_application.cpp.o  -o awesome_application 

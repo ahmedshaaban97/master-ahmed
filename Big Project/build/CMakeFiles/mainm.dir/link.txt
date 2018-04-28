@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/mainm.dir/apps/mainm.cpp.o  -o mainm 

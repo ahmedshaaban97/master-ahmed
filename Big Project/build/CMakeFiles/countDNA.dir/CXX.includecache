@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cmap.hpp
+
+../include/helperst.hpp
+fstream
+-
+vector
+-
+string
+-
+sstream
+-
+algorithm
+-
+cctype
+-
+
+/home/ahmed/Big Project/apps/countDNA.cpp
+cmap.hpp
+/home/ahmed/Big Project/apps/cmap.hpp
+helperst.hpp
+/home/ahmed/Big Project/apps/helperst.hpp
+

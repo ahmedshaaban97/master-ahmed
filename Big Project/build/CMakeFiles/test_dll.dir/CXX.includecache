@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/int_dlinkedlist.hpp
+iostream
+-
+
+/home/ahmed/Big Project/apps/test_int_dlinkedlist.cpp
+iostream
+-
+int_dlinkedlist.hpp
+/home/ahmed/Big Project/apps/int_dlinkedlist.hpp
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/arrays.hpp
+cmath
+-
+iostream
+-
+
+../include/dna.hpp
+arrays.hpp
+../include/arrays.hpp
+
+../include/helpers.hpp
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+
+/home/ahmed/Big Project/apps/analyzeDNA.cpp
+helpers.hpp
+/home/ahmed/Big Project/apps/helpers.hpp
+dna.hpp
+/home/ahmed/Big Project/apps/dna.hpp
+

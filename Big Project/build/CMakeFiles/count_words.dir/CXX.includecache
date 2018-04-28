@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/helperst.hpp
+fstream
+-
+vector
+-
+string
+-
+sstream
+-
+algorithm
+-
+cctype
+-
+
+../include/map.hpp
+string
+-
+iostream
+-
+
+/home/ahmed/Big Project/apps/count_words.cpp
+map.hpp
+/home/ahmed/Big Project/apps/map.hpp
+helperst.hpp
+/home/ahmed/Big Project/apps/helperst.hpp
+

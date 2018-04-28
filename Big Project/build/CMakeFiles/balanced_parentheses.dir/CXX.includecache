@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/member1ll.hpp
+iostream
+-
+
+../include/member3ll.hpp
+member1ll.hpp
+../include/member1ll.hpp
+iostream
+-
+
+../include/member6ll.hpp
+member3ll.hpp
+../include/member3ll.hpp
+
+/home/ahmed/Big Project/apps/balanced_parentheses.cpp
+iostream
+-
+member6ll.hpp
+/home/ahmed/Big Project/apps/member6ll.hpp
+

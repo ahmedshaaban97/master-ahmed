@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/int_linkedlist.hpp
+iostream
+-
+cstdlib
+-
+
+/home/ahmed/Big Project/apps/test_int_linkedlist.cpp
+iostream
+-
+int_linkedlist.hpp
+/home/ahmed/Big Project/apps/int_linkedlist.hpp
+

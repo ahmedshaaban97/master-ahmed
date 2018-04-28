@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/int_q_linkedlist.hpp
+iostream
+-
+
+/home/ahmed/Big Project/apps/test_int_q_linkedlist.cpp
+iostream
+-
+int_q_linkedlist.hpp
+/home/ahmed/Big Project/apps/int_q_linkedlist.hpp
+

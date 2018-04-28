@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/arrays.hpp
+cmath
+-
+iostream
+-
+
+../include/ecg.hpp
+arrays.hpp
+../include/arrays.hpp
+cmath
+-
+iostream
+-
+
+../include/helpers.hpp
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+
+/home/ahmed/Big Project/apps/analyzeECG.cpp
+ecg.hpp
+/home/ahmed/Big Project/apps/ecg.hpp
+helpers.hpp
+/home/ahmed/Big Project/apps/helpers.hpp
+cmath
+-
+

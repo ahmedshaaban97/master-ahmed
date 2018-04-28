@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/mathematics.hpp
+cmath
+-
+
+/home/ahmed/Big Project/apps/calculator.cpp
+mathematics.hpp
+/home/ahmed/Big Project/apps/mathematics.hpp
+string
+-
+iostream
+-
+algorithm
+-
+

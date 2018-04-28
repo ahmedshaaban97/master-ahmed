@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bst.hpp
+iostream
+-
+string
+-
+queue
+-
+
+../include/helperst.hpp
+fstream
+-
+vector
+-
+string
+-
+sstream
+-
+algorithm
+-
+cctype
+-
+
+../include/set.hpp
+bst.hpp
+../include/bst.hpp
+
+/home/ahmed/Big Project/apps/unique_words.cpp
+set.hpp
+/home/ahmed/Big Project/apps/set.hpp
+helperst.hpp
+/home/ahmed/Big Project/apps/helperst.hpp
+

@@ -1,0 +1,14 @@
+/home/ahmed/Big Project/build/CMakeFiles/edit_cache.dir
+/home/ahmed/Big Project/build/CMakeFiles/test_qll.dir
+/home/ahmed/Big Project/build/CMakeFiles/rebuild_cache.dir
+/home/ahmed/Big Project/build/CMakeFiles/calculator.dir
+/home/ahmed/Big Project/build/CMakeFiles/awesome_application.dir
+/home/ahmed/Big Project/build/CMakeFiles/analyzeECG.dir
+/home/ahmed/Big Project/build/CMakeFiles/analyzeDNA.dir
+/home/ahmed/Big Project/build/CMakeFiles/test_qarray.dir
+/home/ahmed/Big Project/build/CMakeFiles/mainb.dir
+/home/ahmed/Big Project/build/CMakeFiles/mainm.dir
+/home/ahmed/Big Project/build/CMakeFiles/heron.dir
+/home/ahmed/Big Project/build/CMakeFiles/test_dll.dir
+/home/ahmed/Big Project/build/CMakeFiles/test_tree.dir
+/home/ahmed/Big Project/build/CMakeFiles/test_sll.dir

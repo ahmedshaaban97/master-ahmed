@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/mainb.dir/apps/mainb.cpp.o  -o mainb 
